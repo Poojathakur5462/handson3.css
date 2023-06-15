@@ -1,0 +1,222 @@
+body{
+  background-color:gray;
+
+ }
+ .Parent{
+  border: 5px solid green; 
+  height:600px;
+  width:100%;
+  display :flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly ;
+  justify-content:space-between;
+  gap:30px;
+  
+}
+ .Welcome{
+   background-color:skyblue;
+   top:150px;
+   font-style:italic;  
+     border: 5px groove red;  
+    height:140px;
+    width:200px;
+    text-align: center;
+    color:blue;
+    box-shadow:5px 5px;
+    border-radius:20px 20px 20px 20px;
+    position:relative;
+      top:0px;
+      left:550px;
+      line-height:30px;
+     }
+   .address{
+      background-color:skyblue;
+      font-weight: bold; 
+    border: 5px solid Red; 
+    height:200px;
+    width:200px;
+    text-align: center;
+    color:blue;
+    box-shadow:5px 5px;
+    border-radius:20px 20px 20px 20px;
+    padding:20px 20px 20px 20px;
+    position:absolute;
+    top:210px;
+    left:70px;
+    line-height:30px;
+   }
+   .Image{
+      background-color:skyblue;
+      border: 5px solid Red; 
+      height:200px;
+       width:200px;
+      text-align: center;
+      color:blue;
+      box-shadow:5px 5px;
+      border-radius:20px 20px 20px 20px;
+      padding:30px 10px 10px 10px;
+      position:relative;
+      top:20px;
+      left:1000px;
+      
+     }
+
+   .parent2{
+      font-weight: bold; 
+      border: 5px solid none; 
+      height:400px;
+      width:100%;
+       display :flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content:space-evenly ;
+      justify-content:space-between;
+      gap:30px;
+   }
+   .serve{
+      background-color:skyblue;
+      font-weight: bold; 
+       border: 5px solid Red; 
+       height:200px;
+       width:200px;
+       text-align: center;
+       color:blue;
+       box-shadow:5px 5px;
+       border-radius:20px 20px 20px 20px;
+       padding:20px 20px 20px 20px;
+       position:absolute;
+         top:500px;
+         left:60px;
+         line-height:30px;
+   }
+   
+   .rate{
+      background-color:skyblue;
+      font-weight: bold; 
+    border: 5px solid Red; 
+    height:200px;
+    width:200px;
+    text-align: center;
+    color:blue;
+    box-shadow:5px 5px;
+    border-radius:20px 20px 20px 20px;
+    padding:20px 20px 20px 20px;
+    position:relative;
+   top:-280px;
+   left:-80px;
+   line-height:30px;
+   }
+   .fixed{
+      background-color:greenyellow ;
+    border: 5px solid red; 
+    height:100px;
+    width:500px;
+    text-align: center;
+    color:blue;
+    display:flex;
+   flex-direction: row; 
+   /* flex-wrap: wrap;  */
+   /* justify-content:space-evenly ; */
+   justify-content:space-between;
+   gap:30px;
+   box-shadow:0px 0px 10px blue;
+   border-radius:20px 20px 20px 20px;
+   position:fixed;
+   top:500px;
+   left:400px;
+   }
+   .offer{
+      font-style: italic; 
+      border: 5px solid none; 
+      height:70px;
+      width:200px;
+      text-align: center;
+      color:blue;
+      /* box-shadow:0px 0px 10px blue;   */
+      /* border-radius:20px 20px 20px 20px; */
+      padding-top:10px;
+ }
+   .discount{
+      font-style: italic; 
+      border: 1px solid none; 
+      height:70px;
+      width:200px;  
+      text-align: center; 
+      color:blue;
+      /* box-shadow:0px 0px 10px blue; */
+      /* border-radius:20px 20px 20px 20px; */
+      padding-top: 10px;
+   }
+   .parent3{
+      border: 5px solid blueviolet; 
+      height:500px;
+      width:1000px;
+      text-align: center;
+      color:blue;
+      display:flex;
+     flex-direction: row; 
+     flex-wrap: wrap; 
+     justify-content:space-evenly ;
+     justify-content:space-between;
+     gap:30px;
+     box-shadow:0px 0px 10px blue;
+     position:relative;
+     top:-400px;
+     left:100px;
+    
+     }
+     .Welcome2 {
+      background-color:green ;
+      font-weight:bold; 
+      border: 5px solid blueviolet; 
+      height:100px;
+      width:1000px;  
+      text-align: center; 
+      color:black;
+      box-shadow:0px 0px 10px blue;
+       /* border-radius:20px 20px 20px 20px;  */
+      
+   }
+   
+   .Fruits{
+      background-color:peachpuff ;
+      font-style: italic; 
+      border: 5px solid green; 
+      height:200px;
+      width:495px;  
+      text-align: center; 
+      color:blue;
+      box-shadow:0px 0px 10px blue;
+      /* border-radius:20px 20px 20px 20px; */
+      position:absolute;
+      top:110px;
+      left:1px;
+   }
+   .Vegetables {
+      background-color:peachpuff ;
+      font-style: italic; 
+      border: 5px solid green; 
+      height:200px;
+      width:495px;  
+      text-align: center; 
+      color:blue;
+      box-shadow:0px 0px 10px blue;
+      /* border-radius:20px 20px 20px 20px; */
+      position:relative;
+      top:-105px;
+      left:5px;
+   }
+   .Other{
+      background-color:peachpuff ;
+    font-style: italic; 
+      border: 5px solid green; 
+      height:170px;
+      width:990px;  
+      text-align: center; 
+      color:blue;
+      box-shadow:0px 0px 10px blue;  
+      position:absolute;
+       top:320px;
+      left:1px;
+   }
